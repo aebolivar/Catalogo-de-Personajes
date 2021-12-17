@@ -24,7 +24,7 @@ En este programa se muestra un Catalogo de Personajes que toma como base para su
 ---
 "Especifica los tipos de objetos a crear por medio de una instancia prototípica, y crear nuevos objetos copiando este prototipo." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
-<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/imagenesDIAGRAMACLASES/FactoryMethod.png"> </p> 
+<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/imagenesDIAGRAMACLASES/DiagramaPrototype.png"> </p> 
 
 #### Patron Singleton
 ---

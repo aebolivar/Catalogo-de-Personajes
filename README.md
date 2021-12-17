@@ -35,6 +35,8 @@ Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilu
 ---
 "Garantiza que una clase sólo tenga una instancia, y proporciona un punto de acceso global a ella." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
+# Aplicación de los principios SOLID
+
 #### Principio de Sustitución de Liskov
 ---
 Este principio se basa en asegurarnos de que cuando extendemos una clase, no estamos alterando el comportamiento de la clase principal, en lo práctico el principio expone como si se tiene una clase base que tiene una clase derivada y esta última se sustituye y el programa sigue funcionando, entonces la clase derivada es una subtipo de la clase base, y se cumple con lo que se enuncia inicialmente.

@@ -40,8 +40,3 @@ Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilu
 #### Principio de Sustitución de Liskov
 ---
 Este principio se basa en asegurarnos de que cuando extendemos una clase, no estamos alterando el comportamiento de la clase principal, en lo práctico el principio expone como si se tiene una clase base que tiene una clase derivada y esta última se sustituye y el programa sigue funcionando, entonces la clase derivada es una subtipo de la clase base, y se cumple con lo que se enuncia inicialmente.
-
-### Información Adicional⚙️
----
-Primera parte: Diseño, que se encuentra en el presente README
-Segunda parte: Implementación, que se encuentra en la carpeta "orquesta_final"

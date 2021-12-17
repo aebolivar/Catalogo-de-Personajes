@@ -17,9 +17,6 @@ En este programa se muestra un Catalogo de Personajes que toma como base para su
 
 ### Aplicando los Patrones Creacionales 🔧
 ---
-
-<p align="center"> <img src="https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Imagenes%20README/SOLID.png"> </p> 
-
 El desarrollo de este ejercicio tiene como objetivo la aplicación de los principios SOLID (minimo 3), y se encuentra dividido en dos partes, la primera parte que es su diseño y la segunda, que comprende la implementación. De acuerdo a lo anterior, se mostrara en su primera parte la estructura de este desarrollo por medio de su Diagrama de Clases y se ubicara de manera clara donde estan aplicados estos principios. 
 
 ### Ubicación de cada principio📌

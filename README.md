@@ -25,18 +25,15 @@ Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilu
 
 #### Patron Method Factory
 ---
-Nombre del patrón: Factory Method
-"Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
+"Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
 #### Patron Prototype
 ---
-Nombre del patrón: Prototype
-"Especifica los tipos de objetos a crear por medio de una instancia prototípica, y crear nuevos objetos copiando este prototipo." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
+"Especifica los tipos de objetos a crear por medio de una instancia prototípica, y crear nuevos objetos copiando este prototipo." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
 #### Patron Singleton
 ---
-Nombre del patrón: Singleton
-"Garantiza que una clase sólo tenga una instancia, y proporciona un punto de acceso global a ella." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
+"Garantiza que una clase sólo tenga una instancia, y proporciona un punto de acceso global a ella." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
 #### Principio de Sustitución de Liskov
 ---

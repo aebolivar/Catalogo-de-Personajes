@@ -23,33 +23,24 @@ El desarrollo de este ejercicio tiene como objetivo la aplicación de los princi
 ---
 Se explica donde y como esta aplicado cada uno de los principios SOLID, y se ilustra con el diagrama de clases enfocando la parte en donde se evidencia.
 
-#### Patron Singleton
----
-En este caso este principio se enfoco en la clase Musico y se analizo como esta tenía metodos que no iba a implementar en todos los casos, y contrario a solucionarlo con un metodo vacío o una expeción, se debe tener como guia este principio que nos habla acerca de que las clases no deben depender de interfaces que no se vayan a utilizar, para este caso se tomo la interfaz que tenia dos metodos y se dividio en dos interfaces, esto permite que las interfaces se usen por completo, esto se hizo de esta forma para visualizar ell principio a pequeña escala pero ya en una situación más compleja la solución no es tan sencilla y se puede solucionar con un patron de diseño.
-
-![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSegregacionInterfaces.png)
-
 #### Patron Method Factory
 ---
-Este principio es el que se refiere a que una clase debe cambiar por una unica razón, para ubicar este principio se debe en primer lugar identificar las responsabilidades que tiene cada clase y pensar en que al momento de la extensión o cambios que se requieran se consiga afectar al menor numero de partes posibles de la aplicación.
-
-En este caso especifico este principio se aplico en la separación entre las clases de cada instrumento y la representación de estos, la clase conserva sus metodos, y la interfaz incluso se puede extende para terminal o navegador para ver la representación del instrumento, para así mostrar como si cambia alguna de las dos clases no va a afectar a la otra, se abran logrado desacoplar.
-
-![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioResponsabilidadUnica.png)
+Nombre del patrón: Factory Method
+"Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
 
 #### Patron Prototype
 ---
-Este es el principio que trata sobre como las clases deben estar abiertas a extensiones y cerradas a modificaciones, esto quiere decir, que si requiero agregar una nueva funcionalidad no puedo modificar el codigo pero si lo puedo extender.
+Nombre del patrón: Prototype
+"Especifica los tipos de objetos a crear por medio de una instancia prototípica, y crear nuevos objetos copiando este prototipo." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
 
-En este caso el principio se ubica en la clase Instrumento, cada vez que tenga que agregar otro nuevo tipo de instrumentos, se debe modificar el código y es allí donde aplicamos el principio Open/Closed exactamente cuando yo desee agregar otra funcionalidad, en este caso, otro tipo de instrumentos, no tengo que modificar la clase de Instrumento, porque esta se penso como una clase abstracta que tiene los metodos de tocar y afinar que se utilizan para todos los tipos de instrumentos sin que se tenga que tocar la clase Instrumento posteriormente.
-
-![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioOpen_Closed.png)
+#### Patron Singleton
+---
+Nombre del patrón: Singleton
+"Garantiza que una clase sólo tenga una instancia, y proporciona un punto de acceso global a ella." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Aljandro Daza</a>
 
 #### Principio de Sustitución de Liskov
 ---
 Este principio se basa en asegurarnos de que cuando extendemos una clase, no estamos alterando el comportamiento de la clase principal, en lo práctico el principio expone como si se tiene una clase base que tiene una clase derivada y esta última se sustituye y el programa sigue funcionando, entonces la clase derivada es una subtipo de la clase base, y se cumple con lo que se enuncia inicialmente.
-
-![Diagrama de clases: PRU](https://github.com/aebolivar/Aplicacion_principios_SOLID/blob/master/Diagrama%20de%20Clases/PrincipioSustitucionLiskov.png)
 
 ### Información Adicional⚙️
 ---

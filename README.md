@@ -18,13 +18,13 @@ En este programa se muestra un Catalogo de Personajes que toma como base para su
 ---
 "Especifica los tipos de objetos a crear por medio de una instancia prototípica, y crear nuevos objetos copiando este prototipo." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
-<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/imagenesDIAGRAMACLASES/DiagramaPrototype.png"> </p>
+<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/Diagrama%20Patron%20Prototype.png"> </p>
 
 #### Patron Method Factory
 ---
 "Define una interfaz para crear un objeto, pero deja que sean las subclases quienes decidan qué clase instanciar. Permite que una clase delegue en sus subclases la creación de objetos." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
-<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/imagenesDIAGRAMACLASES/FactoryMethod.png"> </p> 
+<p align="center"> <img src="https://github.com/aebolivar/Catalogo-de-Personajes/blob/master/Diagrama%20Patr%C3%B3n%20Factory.png"> </p> 
 
 #### Patron Singleton
 ---

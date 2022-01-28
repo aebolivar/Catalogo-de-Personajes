@@ -30,7 +30,7 @@ En este programa se muestra un Catalogo de Personajes que toma como base para su
 ---
 "Garantiza que una clase sólo tenga una instancia, y proporciona un punto de acceso global a ella." Tomado de: <a href="https://github.com/apdaza/patrones-gof-python">Patrones GOF Python - Profesor Alejandro Daza</a>
 
-# Aplicación de los principios SOLID
+# Principios SOLID
 
 #### Principio de Sustitución de Liskov
 ---
